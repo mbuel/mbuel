@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+</head>
+<body style="background-color: darkgray;">
+    <script>
+        var gameSpeed = 8;
+        var currentInterval;
+    </script>
+    <div>Set Game Speed <input type="number" id="game-speed" value="8" label="game speed"></button></div>
+    <canvas style="margin-left: 20%; margin-top: 2%" id="gc" width="400" height="400"></canvas>
+<script>
+    window.onload=function() {
+        canv=document.getElementById("gc");
+        ctx=canv.getContext("2d");
+        document.addEventListener("keydown",keyPush);
+        currentInterval = setInterval(game, 1000/gameSpeed);
+
+    }
+    function init() {
+        document.getElementById('game-speed').addEventListener('change', function(e) {
+            clearInterval(currentInterval);
+            gameSpeed = e.target.value;
+            currentInterval = setInterval(game, 1000 / gameSpeed);
+        });
+    }
+    init();
+    
+    let px=py=10;
+    let gs=tc=20;
+    let ax=ay=15;
+    let xv=yv=0;
+    let trail=[];
+    let tail = 5;
+
+    function game() {
+        px+=xv;
+        py+=yv;
+        if(px<0) {
+            px=tc -1;
+        }
+        if(px>tc-1) {
+            px=0;
+        }
+        if(py<0) {
+            py=tc-1;
+        }
+        if(py>tc-1) {
+            py=0;
+        }
+        ctx.fillStyle="black";
+        ctx.fillRect(0,0,canv.width,canv.height);
+        
+        ctx.fillStyle="lime";
+        for (var i=0; i<trail.length;i++)
+        {
+            ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
+            if(trail[i].x*gs == px && trail[i].y == py) {
+                tail = 5;
+            }
+        }
+        trail.push({x:px,y:py});
+        while(trail.length>tail) {
+            trail.shift();
+        }
+        if(ax == px && ay == py) {
+            tail++;
+            ax = Math.floor(Math.random()*tc);
+            ay = Math.floor(Math.random()*tc);
+        }
+        ctx.fillStyle="red";
+        ctx.fillRect(ax*gs, ay*gs,gs-2,gs-2);
+    }
+
+    function keyPush(evt) {
+        switch(evt.keyCode) {
+            case 37:
+                xv=-1;yv=0;
+                break;
+            case 38:
+                xv=0;yv=-1;
+                break;
+            case 39:
+                xv=1;yv=0;
+                break;
+            case 40:
+                xv=0;yv=1;
+                break;
+        }
+    }
+</script>
+</body>
+</html>
+
