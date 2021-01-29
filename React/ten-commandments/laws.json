@@ -1,0 +1,62 @@
+[
+    {
+      "Receptor": "YHVH",
+      "Applicable": "All",
+      "command": "You shall not have any other gods beside Me.",
+      "VerseLocation": "Ex 20:3, Deut 5:7"
+    },
+    {
+      "Receptor": "YHVH",
+      "Applicable": "All",
+      "command": "You shall not make a graven image for yourself, or any likeness in the heavens above, or in the earth beneath, or in the waters under the earth you shall not bow to them, and you shall not serve them; for I am Yehovah your God, a jealous God, visiting the iniquity of fathers on sons, on the third and on the fourth generation, to those that hate Me, and doing kindness to thousands, to those loving Me, and to those keeping My commandments.",
+      "VerseLocation": "Ex 20:4, Deut 5:8"
+    },
+    {
+      "Receptor": "YHVH",
+      "Applicable": "All",
+      "command": "You shall not take the name of Yehovah your God in vain; for Jehovah will not leave unpunished the one who takes His name in vain.",
+      "VerseLocation": "Ex 20:7, Deut 5:11"
+    },
+    {
+      "Receptor": "YHVH",
+      "Applicable": "All",
+      "command": "Remember the sabbath day, to keep it holy; six days you shall labor and do all your work; and the seventh day is a sabbath to Jehovah our God; you shall not do any work, you, and your son, and your daughter, your male slave and your slave-girl, and your livestock, and your stranger who is in your gates. For in six days Jehovah made the heavens and the earth, the sea, and all which is in them, and He rested on the seventh day; on account of this Jehovah blessed the sabbath day and sanctified it.",
+      "VerseLocation": "Ex 20:8-11, Deut 5:12-15"
+    },
+    {
+      "Receptor": "MANKIND",
+      "Applicable": "All",
+      "command": "Honor your father and your mother, as Jehovah your God has commanded you, so that your days may be prolonged, and so that it may be well with you in the land which Jehovah your God is giving to you.",
+      "VerseLocation": "Ex 20:12, Deut 5:16"
+    },
+    {
+      "Receptor": "MANKIND",
+      "Applicable": "All",
+      "command": "You shall not murder.",
+      "VerseLocation": "Ex 20:13, Deut 5:17"
+    },
+    {
+      "Receptor": "MANKIND",
+      "Applicable": "All",
+      "command": "you shall not commit adultery.",
+      "VerseLocation": "Ex 20:14, Deut 5:18"
+    },
+    {
+      "Receptor": "MANKIND",
+      "Applicable": "All",
+      "command": "You shall not steal.",
+      "VerseLocation": "Ex 20:15, Deut 5:19"
+    },
+    {
+      "Receptor": "MANKIND",
+      "Applicable": "All",
+      "command": "You shall not testify a witness of falsehood against your neighbor.",
+      "VerseLocation": "Ex 20:16, Deut 5:20"
+    },
+    {
+      "Receptor": "MANKIND",
+      "Applicable": "All",
+      "command": "You shall not lust after your neighbor's wife; nor shall you covet your neighbor's house, his field, nor his male slave, nor his female slave, his ox, nor his ass, nor anything which is your neighbor's.",
+      "VerseLocation": "Ex 20:17, Deut 5:21"
+    }
+]
