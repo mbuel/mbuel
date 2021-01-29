@@ -19,7 +19,7 @@ Simple one player game that has the player guess a number between 1 and 20. Modi
 
 Simple two player game with a dice roll. First player to score 100 points wins. As with the prior game, modified from course work to use a "Game logic" class to control and keep track of everything. Also modified the dice "roll" class to have a rolling animation.
 
-### [Snake Game](./JavaScript/snake-Game/index.html)
+### [Snake Game](./JavaScript/snakeGame/index.html)
 
 First project in JavaScript, simple snake game. Might revisit this with my new knowledge and improve the logic, score tracking.
 
