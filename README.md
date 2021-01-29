@@ -33,7 +33,7 @@ Personal space, where I capture my thoughts on the Bible, on religion and what w
 
 ## React Projects
 
-### [Ten Commandments](./JavaScript/React/ten-commandments)
+### [Ten Commandments](./React/ten-commandments)
 
 Modified from Pet Project, goal is to demonstrate the danger of removing one jot or tittle from the law.
 
