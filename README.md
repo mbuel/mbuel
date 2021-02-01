@@ -5,6 +5,11 @@ My personal portfolio, of what I've worked on and what currently working on. It 
 
 Shalom.
 
+# LinkedIn page
+
+For my employment history, and information on that click [here](https://www.linkedin.com/in/morris-buel-b9a0a21a8/)!
+
+
 ## Java Projects
 
 The Java Projects I've worked on will be linked to and described in this section. (TBC)
