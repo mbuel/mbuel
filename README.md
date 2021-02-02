@@ -49,3 +49,9 @@ Simple application to track pet appointments and add new appointments
 ### My Blog
 
 Simple blog - will not completely work here, requires Mongodb
+
+## Documents
+
+### Capstone from WGU
+
+For my [capstone](./documents/mbuel_LabVIEW_refactor_report.pdf), I chose to document the refactor project I underwent at Sea-Bird to improve the LabVIEW codebase to be more reliable and test driven.
