@@ -16,6 +16,10 @@ The Java Projects I've worked on will be linked to and described in this section
 
 ## JavaScript Projects
 
+### [Bankist-V1](./JavaScript/bankist-v1/index.html)
+
+Simple bank application. I tried to make the source more readable, separating functions into their own files - along with creating an "Account" class with methods that calculate data that should not be stored.
+
 ### [Guess my Number Game](./JavaScript/guess-my-number/index.html)
 
 Simple one player game that has the player guess a number between 1 and 20. Modified from course work, by using a "game" class object to keep track of and control game logic. Also added saving of high score to local storage, so the game will remember your score between sessions.
