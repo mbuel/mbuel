@@ -1,6 +1,8 @@
 # Portfolio
 ![Morris Buel](profile.jpg) 
 
+[email me!](mbuel@tutanota.com)
+
 My personal portfolio, of what I've worked on and what currently working on. It also will contain my personal statement of faith - as my faith will be revealed by my work. I enjoy learning, and applying the knowledge I have acquired to solve problems. The greatest gift we can give others is mercy, love and forgiveness.
 
 Shalom.
@@ -16,6 +18,9 @@ The Java Projects I've worked on will be linked to and described in this section
 
 ## JavaScript Projects
 
+### [Personal Bible Studies](https://mbuel.github.io/BibleStudy/)
+
+Personal space, where I capture my thoughts on the Bible, on religion and what we must do to be saved. 
 ### [Bankist-V1](./JavaScript/bankist-v1/index.html)
 
 Simple bank application. I tried to make the source more readable, separating functions into their own files - along with creating an "Account" class with methods that calculate data that should not be stored.
@@ -28,17 +33,14 @@ Simple one player game that has the player guess a number between 1 and 20. Modi
 
 Simple two player game with a dice roll. First player to score 100 points wins. As with the prior game, modified from course work to use a "Game logic" class to control and keep track of everything. Also modified the dice "roll" class to have a rolling animation.
 
-### [Snake Game](./JavaScript/snakeGame/index.html)
+### [Rock Paper Scissors](https://keen-spence-104088.netlify.app/)
 
-First project in JavaScript, simple snake game. Might revisit this with my new knowledge and improve the logic, score tracking.
+Rock Paper and Scissors!
 
 ### [Stop Watch](./JavaScript/stopwatch/index.html)
 
 Next project, a personal one. Want to make a clone of a watch, with time tracking and stop watch features.
 
-### [Personal Bible Studies](https://mbuel.github.io/BibleStudy/)
-
-Personal space, where I capture my thoughts on the Bible, on religion and what we must do to be saved. 
 
 ## React Projects
 
